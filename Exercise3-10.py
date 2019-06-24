@@ -34,3 +34,6 @@ programming_languages.sort(reverse=True)
 print(programming_languages)
 programming_languages.reverse()
 print(programming_languages)
+
+#Next I will find the length of my list
+print(len(programming_languages))
