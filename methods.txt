@@ -1,0 +1,23 @@
+This is just a simple text file, that I use sometimes with some methods I have seen on this book
+len()
+append()
+insert()
+pop()
+remove()
+del
+title()
+upper()
+lower()
+min()
+max()
+sum()
+reverse()
+sort()
+sorted()
+print()
+
+List structure
+items = []
+
+Tuple structure
+items = ()
