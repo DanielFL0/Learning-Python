@@ -2,6 +2,7 @@
 #Call the function, and make sure the message displays correctly.
 
 def display_message():
+    """Display a simple message"""
     print("In this chapter, I am learning how to write functions in Python!")
 
 display_message()
