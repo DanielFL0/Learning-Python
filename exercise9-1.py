@@ -9,10 +9,12 @@ class Restaurant():
         self.cuisine_type = cuisine_type
 
     def describe_restaurant(self):
+        """Displays restaurant information"""
         print("Restaurant's name: " + self.restaurant_name.title())
         print("Cuisine type: " + self.cuisine_type.title())
         
     def open_restaurant(self):
+        """Displays a message that the restaurant is now open"""
         print(self.restaurant_name.title() + " is now open")
 
 
