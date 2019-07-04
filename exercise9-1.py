@@ -3,6 +3,8 @@
 #Make an instance called restaurant from your class. Print the two attributes individually, and then call both methods.
 
 class Restaurant():
+    """A class that represents a restaurant"""
+
     def __init__(self, restaurant_name, cuisine_type):
         """Initialize attributes to describe a restaurant"""
         self.restaurant_name = restaurant_name

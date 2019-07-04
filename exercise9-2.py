@@ -2,6 +2,8 @@
 #Create three different instances from the class, and call describe_restaurant() for each instance.
 
 class Restaurant():
+    """A class that represents a restaurant"""
+
     def __init__(self, restaurant_name, cuisine_type):
         """Initialize attributes that describe a car"""
         self.restaurant_name = restaurant_name

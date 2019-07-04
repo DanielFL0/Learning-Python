@@ -4,6 +4,8 @@
 #Create several instances representing different users, and call both methods for each user.
 
 class User():
+    """A class that represents a user"""
+
     def __init__(self, first_name, last_name, user_name, age):
         """Initialize attributes to describe a user"""
         self.first_name = first_name
