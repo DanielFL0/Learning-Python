@@ -24,7 +24,6 @@ class Die():
         print("The die felt on the number: " + str(random_number))
 
 die6 = Die()
-die6.sides = 6
 for i in range(10):
     die6.roll_die()
 
