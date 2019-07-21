@@ -10,3 +10,30 @@
 #number of sides the die has. Make a 6-sided die and roll it 10 times.
 #Make a 10-sided die and a 20-sided die. Roll each die 10 times.
 
+from random import randint
+
+class Die():
+    """A class that represents a die with n sides"""
+
+    def __init__(self):
+        self.sides = 6
+    
+    def roll_die(self):
+        random_number = randint(1, self.sides)
+        print("The die haves: " + str(self.sides))
+        print("The die felt on the number: " + str(random_number))
+
+die6 = Die()
+die6.sides = 6
+for i in range(10):
+    die6.roll_die()
+
+die10 = Die()
+die10.sides = 10
+for i in range(10):
+    die10.roll_die()
+
+die20 = Die()
+die20.sides = 20
+for i in range(20):
+    die20.roll_die()
