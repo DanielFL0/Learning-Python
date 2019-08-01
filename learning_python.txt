@@ -1,0 +1,4 @@
+In Python you can do math operations with integers and float type variables
+In Python you can join strings with the + sign
+In Python you can use list to store a large amount of values
+In Python you can use dictionaries to join key-value pairs
